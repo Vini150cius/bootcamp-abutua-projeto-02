@@ -116,3 +116,15 @@ object {
   padding-bottom: 1rem;
   color: #fff;
 }
+
+@media screen and (max-width: 620px) {
+  .container-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+}
