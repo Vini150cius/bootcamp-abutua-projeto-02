@@ -6,13 +6,29 @@ body {
   align-items: center;
 }
 
+input {
+  width: 70%;
+  height: 22px;
+  padding: 8px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 0;
+  margin: 10px;
+  align-self: center;
+  justify-self: center;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #2b2b2b;
+}
+
 .container {
   margin: 0.2rem;
   border-radius: 10px;
-  background: linear-gradient(180deg,rgb(29, 12, 32), rgb(101, 31, 112));
+  background: linear-gradient(180deg, rgb(29, 12, 32), rgb(101, 31, 112));
   width: 90%;
-  display: flex;
-  justify-content: center;
+  margin: auto;
 }
 
 .container-poll {
@@ -37,4 +53,26 @@ body {
 .header-text {
   color: white;
   padding: 0 1rem;
+}
+
+.container-poll {
+  background: linear-gradient(0deg, rgb(29, 12, 32), rgb(101, 31, 112));
+  width: 95%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.poll-title {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.form-poll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
