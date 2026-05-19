@@ -1,0 +1,22 @@
+body {
+  background-color: #cccccc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 0.2rem;
+  border-radius: 10px;
+  background: linear-gradient(180deg,rgb(29, 12, 32), rgb(101, 31, 112));
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+.container-poll {
+  background: linear-gradient(0deg, rgb(29, 12, 32), rgb(101, 31, 112));
+  width: 95%;
+  border-radius: 10px;
+  margin: 20px;
+}
